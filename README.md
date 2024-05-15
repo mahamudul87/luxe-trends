@@ -1,43 +1,95 @@
+# Frontend Mentor - Base Apparel coming soon page
 
-## Store: Luxe Trends
+![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
-Luxe Trends is a high-end fashion boutique specializing in clothing, accessories, and footwear for both men and women. It offers curated collections from renowned designers and emerging labels, catering to fashion-forward individuals seeking unique and luxurious pieces.
+## Welcome! 👋
 
-#### SDLC Approach:
-The recommended SDLC approach for transitioning Luxe Trends from a brick-and-mortar store to an online-only ECOM store is the Agile methodology. Agile is well-suited for dynamic projects with evolving requirements, such as developing an e-commerce platform. It emphasizes iterative development, allowing for continuous improvement based on feedback from stakeholders and end-users. Additionally, Agile facilitates close collaboration between developers, designers, and business stakeholders, ensuring alignment with business goals and customer needs throughout the development process. (Beck et al., 2001)
+Thanks for checking out this front-end coding challenge.
 
-#### Application of SDLC Method:
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**Requirements Gathering:** Conduct thorough market research to understand customer preferences and online shopping behaviors. Define the features and functionalities of the e-commerce platform, including product catalog, user accounts, shopping cart, checkout process, payment gateway integration, and mobile app compatibility.
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
-**Design:** Create wireframes and mockups to visualize the user interface and user experience (UI/UX) of the e-commerce website and mobile app. Design a responsive and visually appealing layout that reflects Luxe Trends' brand identity and showcases its products effectively.
+## The challenge
 
-**Development:** Implement the e-commerce platform using a combination of front-end and back-end technologies. Utilize HTML, CSS, and JavaScript for front-end development to ensure a seamless and intuitive user interface. For back-end development, leverage a robust and scalable framework such as Ruby on Rails or Django, along with a relational database like PostgreSQL or MySQL to manage product data, user accounts, and transactions.
+Your challenge is to build out this coming soon page and get it looking as close to the design as possible.
 
-**Testing:** Conduct rigorous testing to identify and resolve any bugs or issues in the e-commerce platform. Perform functional testing, usability testing, and security testing to ensure optimal performance, accessibility, and data protection.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-**Deployment:** Deploy the e-commerce platform to a reliable hosting provider, ensuring high availability and scalability to accommodate growing traffic and sales volume. Configure SSL encryption to secure communication between users and the server, safeguarding sensitive information such as payment details and personal data.
+Your users should be able to:
 
-**Maintenance:** Continuously monitor and maintain the e-commerce platform to address any technical issues, optimize performance, and introduce new features or improvements based on user feedback and market trends.
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Receive an error message when the `form` is submitted if:
+  - The `input` field is empty
+  - The email address is not formatted correctly
 
-#### Programming Languages:
--	Vue js(HTML/CSS/JavaScript) for front-end development
--	Django for back-end development
--	PostgreSQL for database management
+Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
-#### Requirements:
+## Where to find everything
 
-**Secure customer data:** Implement encryption protocols and secure storage mechanisms to protect sensitive information such as credit card details, shipping addresses, and personal preferences.
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 
-**Develop a mobile shopping app:** Design and build a mobile application compatible with iOS and Android devices, offering seamless browsing, shopping, and checkout experiences.
+The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
 
-**Manage the retailer's database:** Set up a centralized database to store product inventory, customer profiles, order history, and transaction records, ensuring data integrity, consistency, and accessibility for authorized users.
+If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
-This approach ensures a comprehensive and iterative process for transitioning Luxe Trends into a successful online-only ECOM store, delivering a seamless and secure shopping experience for its customers.
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-#### References:
+There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
-Beck, K., Beedle, M., van Bennekum, A., Cockburn, A., Cunningham, W., Fowler, M., ... Kern, J. (2001). Manifesto for Agile Software Development. Agile Alliance.
+## Building your project
 
-Destin Learning. (2019, February 15). What are the steps of the software development lifecycle? [Video]. YouTube. https://www.youtube.com/watch?v=gNmrGZSGK1k (10:35)
+Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
+1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
+2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
+3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
+4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
+5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
+6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+
+## Deploying your project
+
+As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+
+- [GitHub Pages](https://pages.github.com/)
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+
+You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+
+## Create a custom `README.md`
+
+We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+
+The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+
+Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+
+## Submitting your solution
+
+Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+
+Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+
+## Sharing your solution
+
+There are multiple places you can share your solution:
+
+1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
+2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
+3. Share your solution on other social channels like LinkedIn.
+4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+
+We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+
+The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+
+## Got feedback for us?
+
+We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+
+This challenge is completely free. Please share it with anyone who will find it useful for practice.
+
+**Have fun building!** 🚀
